@@ -75,8 +75,8 @@ main[4].textContent = siteContent['main-content']['vision-h4'];
 const ctaImg = document.getElementById('cta-img');
 ctaImg.setAttribute('src', siteContent['cta']['img-src']);
 
-// const middleImg = document.getElementById('middle-img-src');
-// middleImg.setAttribute('src', siteContent['main-content']['img-src']);
+const middleImg = document.getElementById('middle-img');
+middleImg.setAttribute('src', siteContent['main-content']['middle-img-src']);
 
 const paragraph = document.querySelectorAll('.main-content p');
 paragraph[0].textContent = siteContent['main-content']['features-content'];
